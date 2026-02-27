@@ -6,10 +6,7 @@ Ensuite, j’ai étudié la modélisation et la génération automatique réalis
 
 *Portante est un terme que j’utilise personnellement pour décrire la cardinalité de la table participantesituée du côté de la cardinalité max de 1 car elle “porte” la clé étrangère de l’autre table.*
 
-L’approche AGL présente plusieurs avantages :
-Gain de temps important.
-Réduction des erreurs syntaxiques.
-Génération rapide d’un schéma cohérent.
+L’approche AGL présente plusieurs avantages : un gain de temps important, une réduction des erreurs syntaxiques et une génération rapide d’un schéma cohérent.
 
 Cependant, comme toute abstraction, elle a ses limites. Le code généré est souvent plus générique, parfois moins optimisé et moins lisible. Incluant des options qui ne sont pas toujours les plus pertinents selon le contexte. À l’inverse, l’écriture manuelle est plus longue mais offre un contrôle total sur la structure et les optimisations.
 
